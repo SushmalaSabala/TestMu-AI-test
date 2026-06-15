@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SimpleFormDemoTest {
+public class TestScenario1 {
 
     @Test
     public void validateSimpleFormDemo() {
