@@ -1,10 +1,12 @@
-```java
 import com.microsoft.playwright.*;
+import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class DragAndDropSliderTest {
+public class TestScenario2 {
 
     @Test
     public void validateSliderValue() {
